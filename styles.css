@@ -1,0 +1,155 @@
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #fff;
+  font-size: 3.625rem;
+  font-family: 'Raleway-heavy', sans-serif;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.0rem;
+  font-weight: bold;
+  padding-top: 20px;
+}
+
+h3 {
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: Black;
+  margin-top: 50px;
+  font-family: 'Merriweather', serif;
+  font-size: 1.23rem;
+  align: left;
+}
+
+.about {
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.services {
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.portfolio {
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.opportunities {
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.contact {
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.home {
+  color: black;
+  margin: 10px;
+  font-size: 1.5rem;
+}
+
+.top-left {
+  position: absolute;
+  top: 30%;
+  left: 37%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 3.625rem;
+  margin-top: 50;
+  padding-right: 80px;
+  font-family: 'Raleway-heavy', sans-serif;
+}
+
+.apartment11 {
+  width: 1000px;
+}
+
+.img-text-view {
+  text-align: center;
+  margin: 0 auto;
+}
+
+#footer {
+  text-align: center;
+}
+
+.social-icon {
+  margin: 20px 10px;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: left;
+  background-color: #EEEEEE;
+  color: white;
+}
+
+.container {
+  padding: 0 16px;
+  text-align: left;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.contact{
+  text-align: left;
+}
+
+.title {
+  color: grey;
+}
+
+.ul-text {
+  text-align: left;
+}
+
+.portfolio-text {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.clients{
+  text-align: center;
+}
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+  }
+}
